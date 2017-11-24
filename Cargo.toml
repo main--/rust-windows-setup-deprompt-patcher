@@ -1,0 +1,11 @@
+[package]
+name = "windows-setup-deprompt-patcher"
+version = "0.1.0"
+authors = ["main() <main@ehvag.de>"]
+
+[dependencies]
+memmap = "0.6"
+memmem = "0.1"
+
+[build-dependencies]
+bindgen = "0.26"
